@@ -1,23 +1,24 @@
 import React, { Component } from 'react';
 import { Navbar, NavItem, Footer, Card } from 'react-materialize';
 import './App.css'; // Tell Webpack that Button.js uses these styles
-import persons from './database'
+import persons from './database';
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <UnicornNavbar />
+        
         <div className="content">
           <header>
             <h1>Unicorn Directory</h1>
           </header>
-
+          <SearchBar />
           {
             persons.map((person) => (
               <Card horizontal title={`${person.firstName} ${person.lastName}`}>
-                <p>{person.position}</p>
-                <p>{`Currently at ${person.location}`}</p>
+                <p>{`${person.position} - Currently at ${person.location}`}</p>
               </Card>
             ))
           }
@@ -55,6 +56,10 @@ const UnicornFooter = () => (
     <h5 className="white-text">ISAK Unicorn</h5>
     <p className="grey-text text-lighten-4">At the ISAK Unicorn we strive to bring the students, faculty and alumni all closer together.</p>
   </Footer>
+);
+
+const SearchBar = () => (
+  <input type="text" className="searchTerm" placeholder="Who are you looking for?"/>
 );
 
 export default App;
