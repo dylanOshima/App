@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-import { Navbar, NavItem, Footer, Card } from 'react-materialize';
+import { Card } from 'react-materialize';
 import './App.css'; // Tell Webpack that Button.js uses these styles
 import persons from './database';
-
+import UnicornNavbar from './components/UnicornNavbar';
+import UnicornFooter from './components/UnicornFooter';
+import SearchBar from './components/SearchBar';
 
 class App extends Component {
   render() {
@@ -28,38 +30,5 @@ class App extends Component {
     );
   }
 }
-
-const UnicornNavbar = () => (
-  <Navbar>
-    <NavItem onClick={() => console.log('test click')}>About</NavItem>
-    <NavItem href='components.html'>Connect</NavItem>
-    <NavItem href='components.html'>Directory</NavItem>
-    <NavItem href='components.html'>Help</NavItem>
-  </Navbar>
-);
-
-const UnicornFooter = () => (
-  <Footer 
-    moreLinks={
-      <a className="grey-text text-lighten-4 right" href="#!">Give Us Feedback!</a>
-    }
-    links={
-      <ul>
-        <li><a className="grey-text text-lighten-3" href="#!">About</a></li>
-        <li><a className="grey-text text-lighten-3" href="#!">Connect</a></li>
-        <li><a className="grey-text text-lighten-3" href="#!">Directory</a></li>
-        <li><a className="grey-text text-lighten-3" href="#!">Help</a></li>
-      </ul>
-    }
-    className="footer"
-  >
-    <h5 className="white-text">ISAK Unicorn</h5>
-    <p className="grey-text text-lighten-4">At the ISAK Unicorn we strive to bring the students, faculty and alumni all closer together.</p>
-  </Footer>
-);
-
-const SearchBar = () => (
-  <input type="text" className="searchTerm" placeholder="Who are you looking for?"/>
-);
 
 export default App;
