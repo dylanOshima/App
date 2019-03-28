@@ -3,10 +3,11 @@ import { Navbar, NavItem } from 'react-materialize';
 
 const UnicornNavbar = () => (
     <Navbar>
-        <NavItem onClick={() => console.log('test click')}>About</NavItem>
-        <NavItem href='components.html'>Connect</NavItem>
-        <NavItem href='components.html'>Directory</NavItem>
-        <NavItem href='components.html'>Help</NavItem>
+        <NavItem href='/about'>About</NavItem>
+        <NavItem href='/connect'>Connect</NavItem>
+        <NavItem href='/directory'>Directory</NavItem>
+        <NavItem href='/help'>Help</NavItem>
+        <NavItem className='right' href='/login'>Login</NavItem>
     </Navbar>
 );
 

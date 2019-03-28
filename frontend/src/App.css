@@ -12,7 +12,37 @@
   }
 }
 
-input[type="text"] {
+#directory-searchbar {
   text-align: center;
   color: black;
+}
+
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  flex: 1 0 auto;
+}
+
+#footer {
+  flex-shrink : 0;
+}
+
+.login-card {
+  padding: 50px;
+}
+
+.center {
+  margin: auto;
+  width: 80%;
+  text-align: left;
+}
+
+bottom-padding {
+  padding-bottom: 50px;
 }

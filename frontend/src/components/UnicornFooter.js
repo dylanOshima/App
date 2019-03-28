@@ -8,10 +8,10 @@ const UnicornFooter = () => (
       }
       links={
         <ul>
-          <li><a className="grey-text text-lighten-3" href="#!">About</a></li>
-          <li><a className="grey-text text-lighten-3" href="#!">Connect</a></li>
-          <li><a className="grey-text text-lighten-3" href="#!">Directory</a></li>
-          <li><a className="grey-text text-lighten-3" href="#!">Help</a></li>
+          <li><a className="grey-text text-lighten-3" href="/about">About</a></li>
+          <li><a className="grey-text text-lighten-3" href="/connect">Connect</a></li>
+          <li><a className="grey-text text-lighten-3" href="/directory">Directory</a></li>
+          <li><a className="grey-text text-lighten-3" href="/help">Help</a></li>
         </ul>
       }
       className="footer"
