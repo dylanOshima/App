@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({ extended: true }));
 
-    var mongoUri = process.env.MONGODB_URI || 'mongodb://localhost/2048scores';
+    var mongoUri = process.env.MONGODB_URI || 'mongodb://localhosclt/2048scores';
     var MongoClient = require('mongodb').MongoClient, format = require('util').format;
 
     var db = MongoClient.connect(mongoUri, function(error, databaseConnection) {
