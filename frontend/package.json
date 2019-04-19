@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "history": "^4.9.0",
+    "mongodb": "^3.2.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-materialize": "^2.6.0",

@@ -14,7 +14,6 @@
 
 #directory-searchbar {
   text-align: center;
-  color: black;
 }
 
 html, body {
@@ -43,6 +42,6 @@ body {
   text-align: left;
 }
 
-bottom-padding {
-  padding-bottom: 50px;
+.bottom-padding {
+  padding-bottom: 20px;
 }

@@ -6,6 +6,8 @@ import DirectoryPage from './../components/DirectoryPage';
 import AboutPage from './../components/AboutPage';
 import ConnectPage from './../components/ConnectPage';
 import LoginPage from './../components/LoginPage';
+import NotFoundPage from './../components/NotFoundPage';
+import HelpPage from '../components/HelpPage';
 
 export const history = createHistory();
 
@@ -18,12 +20,8 @@ const AppRouter = () => (
         <Route path='/about' component={AboutPage} />
         <Route path='/connect' component={ConnectPage} />
         <Route path='/login' component={LoginPage} />
-        {/* <Route path="/program-specific-evaluation/:id" component={DashboardPage} />
-        <Route path="/classes" component={ClassesPage} exact={true}/>
-        <Route path="/classes/:id" component={ClassDashboardPage} exact={true}/>
-        <Route path="/classes/:id/attendance" component={AttendancePage} />
-        <Route path="/calendar" component={CalendarPage} />
-        <Route component={NotFoundPage}/> */}
+        <Route path='/help' component={HelpPage} />
+        <Route component={NotFoundPage}/> 
       </Switch>
     </React.Fragment>    
   </Router>

@@ -6,7 +6,8 @@ const persons = [
         college: "Tufts University",
         location: "Boston, MA, USA",
         description: "Currently studying Computer Science",
-        origin: "Japan"
+        origin: "Japan",
+        image: "img/naoki.jpeg"
     },
     {
         firstName: "Dylan",
@@ -15,7 +16,8 @@ const persons = [
         college: "Edinburgh University",
         location: "Edinburgh, Scotland",
         description: "Currently studying Computer Science",
-        origin: "Philippines"
+        origin: "Philippines",
+        image: "img/dylan.jpeg"
     },
     {
         firstName: "Thomas",
@@ -24,7 +26,8 @@ const persons = [
         college: "Vanderbilt University",
         location: "Nashville, TN, USA",
         description: "Currently studying Computer Science",
-        origin: "Taiwan"
+        origin: "Taiwan",
+        image: "img/thomas.jpeg"
     },
     {
         firstName: "Quynh Trang",
@@ -33,7 +36,8 @@ const persons = [
         college: "Waseda University",
         location: "Tokyo, Japan",
         description: "Currently studying Business",
-        origin: "Vietnam"
+        origin: "Vietnam",
+        image: "img/b.jpeg"
     },
     {
         firstName: "Xavi",
@@ -42,7 +46,8 @@ const persons = [
         college: "",
         location: "Barcelona, Spain",
         description: "Currently studying Business",
-        origin: "Spain"
+        origin: "Spain",
+        image: "img/xavi.jpg"
     }
 ];
 
