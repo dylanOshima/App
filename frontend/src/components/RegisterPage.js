@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from 'react-materialize/lib/Button';
 
-const LoginPage = () => (
+const RegisterPage = () => (
     <div className="input-field center bottom-padding">
         <header>
             <h1>Your Profile</h1>
@@ -75,4 +75,4 @@ const LoginPage = () => (
     </div>
 );
 
-export default LoginPage;
+export default RegisterPage;

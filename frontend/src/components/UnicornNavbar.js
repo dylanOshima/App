@@ -7,7 +7,7 @@ const UnicornNavbar = () => (
         <NavItem href='/connect'>Connect</NavItem>
         <NavItem href='/directory'>Directory</NavItem>
         <NavItem href='/help'>Help</NavItem>
-        <NavItem className='right' href='/login'>Login</NavItem>
+        <NavItem className='right' href='/register'>Login</NavItem>
     </Navbar>
 );
 

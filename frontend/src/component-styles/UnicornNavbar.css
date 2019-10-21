@@ -1,0 +1,38 @@
+.Navbar-div {
+  overflow: hidden;
+  background-color: white;
+  padding: 2px 50px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.Navbar-ul-Link {
+  float: left;
+  padding:0;
+}
+
+.Navbar-ul-Link-p {
+  display: block;
+  color: rgb(14, 93, 167);
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.Navbar-ul-Link:hover {
+  font-weight: bold;
+  border-bottom: 2px solid rgb(14, 93, 167);
+}
+
+.Navbar-input input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.page-container {
+  padding: 0px 50px
+}

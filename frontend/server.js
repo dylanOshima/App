@@ -38,7 +38,7 @@ const isLoggedIn = (req, res, next) => {
 }
 
 app.get('/*', function (req, res) {
-  res.sendFile(path.join(__dirname, '..', 'frontend', 'build', 'index.html'));
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
 app.listen(port, () => { 

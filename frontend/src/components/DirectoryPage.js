@@ -8,6 +8,7 @@ import { Card, Row, Col } from 'react-materialize';
  * 
  * @param {String} visualOption The visual display option 
  * @param {Object} peopleArray Array of the people object
+ * @returns JSX
  */
 const DirectoryVisualization = (visualOption, peopleArray) => {
     switch (visualOption) {
@@ -46,9 +47,10 @@ const DirectoryVisualization = (visualOption, peopleArray) => {
 }
 
 class DirectoryPage extends Component {
+
     state = {
         visualOption: "Cards",
-        people : persons
+        people : persons,
     }
   
     render() {
